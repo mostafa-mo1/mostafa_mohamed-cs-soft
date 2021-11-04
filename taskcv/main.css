@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(227, 227, 228);
+}
+i{
+    color: rgb(60, 128, 66);
+    margin: 5px;
+}
+.contaner{
+    display: flex;
+    flex-direction: row;
+}
+.up{
+    display: flex;
+    flex-direction: column;
+}
+
+aside{
+    width: 30%;
+    padding: 20px;
+    background-color: white;
+}
+article ,section{
+    width:90%;
+    padding: 20px;
+    margin-left: 20px;
+    background-color: white;
+}
+section{
+    margin-top: 10px;
+}
+footer{
+    text-align: center;
+    background-color: aqua;
+    padding: 1px;
+    margin-top: 5px;
+}
+input{
+    color: rgb(7, 160, 248);
+    background-color: rgb(60, 128, 66);
+    border: none;
+}
